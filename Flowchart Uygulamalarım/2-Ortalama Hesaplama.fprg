@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="siyam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-11 12:50:42 &#214;S"/>
+        <attribute name="created" value="c2l5YW07REVTS1RPUC0zMjdDN0RMOzIwMjQtMDEtMTE7MTI6MjM6NDkgw5ZTOzI5Njg="/>
+        <attribute name="edited" value="c2l5YW07REVTS1RPUC0zMjdDN0RMOzIwMjQtMDEtMTE7MTI6NTA6NDIgw5ZTOzE7MzA2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, ortalama" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <assign variable="ortalama" expression="(n1+n2+n3)/3"/>
+            <if expression="ortalama &lt; 45">
+                <then>
+                    <output expression="&quot;ortalama:&quot; &amp; ortalama &amp; &quot;ZAYIF&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="ortalama &lt; 70">
+                        <then>
+                            <output expression="&quot;ortalama:&quot; &amp; ortalama &amp; &quot;&#304;Y&#304;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ortalama:&quot; &amp; ortalama &amp; &quot;PEK&#304;Y&#304;&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

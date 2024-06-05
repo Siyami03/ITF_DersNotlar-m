@@ -1,0 +1,3 @@
+
+Kullanıcı tarafından dirilen sayının asal 
+sayı olup olmadığını bulan program yapınız

@@ -1,0 +1,3 @@
+
+Girilen sayının TEK mi yoksa ÇİFT mi olduğunu
+gösteren programlama yapınız.

@@ -1,0 +1,3 @@
+5 öğrencili bir sınıfta öğrencilerin 
+bir dersten aldıkları notların ortalamasını
+bulan bir program yap.

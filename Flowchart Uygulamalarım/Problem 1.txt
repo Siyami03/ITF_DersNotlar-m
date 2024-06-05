@@ -1,0 +1,3 @@
+
+Klaavyeden girilen 3 sayının ortalamsını 
+alan program yap

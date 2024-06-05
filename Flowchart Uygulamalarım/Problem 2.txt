@@ -1,0 +1,5 @@
+3 ders notunun ortalamasını 
+al. Sonuç 45'den küçük/eşit 
+olursa ZAYIF yazsın. 46 - 70 
+arasıİYİ yazsın. 71'den 
+yukarısı için PEKİYİ yazsın. 

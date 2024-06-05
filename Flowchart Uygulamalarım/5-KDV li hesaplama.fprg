@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="siyam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-12 04:11:27 &#214;S"/>
+        <attribute name="created" value="c2l5YW07REVTS1RPUC0zMjdDN0RMOzIwMjQtMDEtMTI7MDM6NTc6NTIgw5ZTOzI5NzA="/>
+        <attribute name="edited" value="c2l5YW07REVTS1RPUC0zMjdDN0RMOzIwMjQtMDEtMTI7MDQ6MTE6Mjcgw5ZTOzE7MzA3MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fiyat, kdvliFiyat, kdv" type="Real" array="False" size=""/>
+            <assign variable="kdv" expression="0.18"/>
+            <output expression="&quot;Fiyat Giriniz&quot;" newline="True"/>
+            <input variable="fiyat"/>
+            <if expression="fiyat &lt;= 0">
+                <then>
+                    <output expression="&quot;Fiyat s&#305;f&#305;rdan b&#252;y&#252;k olmal&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="kdvliFiyat" expression="fiyat + fiyat*kdv"/>
+                    <output expression="&quot;KDV li Fiyat = &quot; &amp; kdvliFiyat" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

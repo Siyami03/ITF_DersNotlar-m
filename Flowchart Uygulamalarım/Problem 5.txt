@@ -1,0 +1,5 @@
+
+Klavyeden girilen ürün fiyatının %18 KDV dahil
+fiyatını gösteren program yap. Eğer girilen 
+sayı 0'a eşit veya küçükse uyarı verip 
+programo sonlandırmalı.
